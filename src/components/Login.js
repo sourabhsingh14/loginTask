@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import db, { auth, provider } from "./firebase";
 
-function Header() {
+function Login() {
   const [users, setUser] = useState("abc");
   const [logInfo, setLogInfo] = useState(false);
   const [loadData, setLoadData] = useState(false);
@@ -91,4 +91,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Login;
